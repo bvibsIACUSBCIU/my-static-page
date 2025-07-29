@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin-top: 50px; /* 添加一些上边距 */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh; /* 稍微减小高度 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px; /* 增加内边距 */
+  border-radius: 8px; /* 添加圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+h1 {
+  color: #61dafb; /* React 蓝 */
+}
+
+p {
+  color: #f0f0f0;
+  max-width: 600px; /* 限制段落宽度 */
+  line-height: 1.6; /* 增加行高 */
+}
